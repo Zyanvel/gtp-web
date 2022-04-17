@@ -30,38 +30,27 @@ li {
     cursor: pointer;
     list-style: none;
     display: flex;
-    margin: 0 3rem 0 0;
+    margin: 20px 10px;
 }
 
  /* footer icons */
 
 .location-dot {
-    margin: 0 3px 0 0;
+    margin: 0 3px;
     color: #30699B;
+    padding: 0 0 0 20px;
 }
 
 .mobile-icon {
-    margin: 0 3px 0 0;
+    margin: 0 3px;
     color: #30699B;
+    padding: 0 0 0 20px;;
 }
-
-/* .fa-location-dot {
-    width: 10px;
-    height: 10px;
-    margin: 0 3px 0 0;
-    color: #30699B;
-}
-
-.fa-mobile-screen-button {
-    width: 10px;
-    height: 10px;
-    margin: 0 3px 0 0;
-    color: #30699B;
-} */
  
  .envelope-icon {
-    margin: 0 3px 0 0;
+    margin: 0 3px;
     color: #30699B;
+    padding: 0 0 0 20px;
 }
 
 

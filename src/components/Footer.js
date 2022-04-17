@@ -12,17 +12,16 @@ function Footer(props) {
             
                 <ul className='footer_info' id="info">
                     <li>
-                    <FaMapMarkerAlt />
+                    <FaMapMarkerAlt className='location-dot' />
                         {/* <i className='fa-solid fa-location-dot'></i> */}
                         274 Redwood Shores Parkway #504, Redwood City, CA 94065
                     </li>
                     <li>
-                        <FaMobileAlt />
-                        {/* <i className='fa-solid fa-mobile-screen-button'></i> */}
+                        <FaMobileAlt className='mobile-icon'/>
                         650-339-3768
                     </li>
                     <li>
-                    <FaEnvelope />
+                    <FaEnvelope className='envelope-icon' />
                         llin@globalpartner.com
                     </li>
                 </ul>
@@ -33,19 +32,3 @@ function Footer(props) {
 }
 
 export default Footer;
-
-// import React from 'react';
-// import './Footer.css';
-// import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from 'react-icons/fa';
-
-// function Footer(props) {
-//     return (
-//         <div className='footer__div' id="footer">
-//             <FaMapMarkerAlt /> address
-//             <FaMobileAlt /> phone
-//             <FaEnvelope />
-//         </div>
-//     );
-// }
-
-// export default Footer;
