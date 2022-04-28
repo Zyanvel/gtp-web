@@ -12,7 +12,7 @@
 
 }
 
-ul#info li {
+ul li {
     display: inline;
     border-style: none;
     background-color: white;
@@ -53,4 +53,16 @@ li {
     padding: 0 0 0 20px;
 }
 
+@media only screen and (max-width: 500px) {
+    #footer {
+        width: 100vw;
+    }
+    li {
+    /* display: inline; */
+    cursor: pointer;
+    list-style: none;
+    /* display: flex; */
+    margin: 0 .3rem 0 0;
+    }
 
+}
