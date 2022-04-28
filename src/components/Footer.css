@@ -58,10 +58,9 @@ li {
         width: 100vw;
     }
     li {
-    /* display: inline; */
+    display: inline-flex;
     cursor: pointer;
     list-style: none;
-    /* display: flex; */
     margin: 0 .3rem 0 0;
     }
 
