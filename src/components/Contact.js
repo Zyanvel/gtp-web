@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import {useState} from 'react'
 
 function Contact(props) {
+	
 	const navigate = useNavigate();
 	const [inquiry, setInquiry] = useState({
 		name: '',
