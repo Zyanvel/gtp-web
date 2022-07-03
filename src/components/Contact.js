@@ -18,10 +18,12 @@ function Contact(props) {
 	};
 
 	const createNewInquiry = () => {
-		axios.post('http://localhost:3111/inquiries', inquiry).then((res) => {
-			console.log(res);
-			navigate("/");
-		});
+		axios
+			.post('https://gtp-backend.herokuapp.com/inquiries', inquiry)
+			.then((res) => {
+				console.log(res);
+				navigate('/');
+			});
 	}
 
 	const handleSubmit = (event) => {
